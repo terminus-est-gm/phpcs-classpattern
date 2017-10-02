@@ -1,11 +1,10 @@
 Google Web Development Best Practices Coding Standard for PHP CodeSniffer
 =====================================================
-[![Build Status](https://travis-ci.org/jrfnl/Google-WebDev-PHPCS.png?branch=master)](https://travis-ci.org/jrfnl/Google-WebDev-PHPCS)
+[![Build Status](https://travis-ci.org/terminus-est-gm/phpcs-classpattern.png?branch=master)](https://travis-ci.org/jrfnl/Google-WebDev-PHPCS)
 
 ## Introduction
 
 This is a sniff for [PHP CodeSniffer](http://pear.php.net/PHP_CodeSniffer) which can be used to check that class names adhere to a pattern.
-
 
 ## Installation
 
@@ -32,8 +31,8 @@ Like with any PHP CodeSniffer standard, you can add this classpattern to a custo
 <ruleset name="Custom ruleset">
     <description>My rules for PHP CodeSniffer</description>
 
-    <!-- Run against the GoogleWebDev ruleset -->
-    <rule ref="GoogleWebDev"/>
+    ClassPattern
+    <rule ref="ClassPattern"/>
 
     <!-- Run against a second ruleset -->
     <rule ref="PSR2"/>
