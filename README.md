@@ -1,4 +1,4 @@
-Google Web Development Best Practices Coding Standard for PHP CodeSniffer
+Class Pattern Sniff for PHP CodeSniffer
 =====================================================
 [![Build Status](https://travis-ci.org/terminus-est-gm/phpcs-classpattern.png?branch=master)](https://travis-ci.org/jrfnl/Google-WebDev-PHPCS)
 
